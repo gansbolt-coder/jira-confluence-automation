@@ -13,6 +13,8 @@ tools: []
   + Keywords: testing, verification, test plan, run tests, validate changes, Jira report tests
 - [`document-and-migrate-project-health-brief.agent.md`](./document-and-migrate-project-health-brief.agent.md) — documents and safely migrates from the KAN report to the Development-wide Jira health brief.
   + Keywords: documentation, migration, update README, KAN report, Jira health brief, operating guide
+- [`protect-sensitive-data-and-report-evidence.agent.md`](./protect-sensitive-data-and-report-evidence.agent.md) — protects secrets and keeps project, test, report, and migration claims evidence-based.
+  + Keywords: credentials, secrets, environment files, evidence, factual claims, verification
 - [`create-status-report.agent.md`](./create-status-report.agent.md) — generates concise weekly status reports using the specified Markdown sections and limits.
   + Keywords: weekly status report, project updates, accomplishments, blockers, next week
 - [`main.agent.md`](./main.agent.md) — this index of instruction files.
