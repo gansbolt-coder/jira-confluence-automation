@@ -5,6 +5,12 @@ tools: []
 ---
 # Instruction Files
 
+- [`calculate-compound-interest.agent.md`](./calculate-compound-interest.agent.md) — calculates compound interest with the command-line tool and presents its results.
+  + Keywords: compound interest, compound-interest calculator, principal, annual rate, compounding frequency, investment duration
+- [`use-retrieve_jira_issues.agent.md`](./use-retrieve_jira_issues.agent.md) — retrieves paginated Jira Cloud issues for specified project keys using the command-line tool.
+  + Keywords: retrieve Jira issues, Jira API, project key, Jira Cloud, issue pagination
+- [`use-calc_issue_counts.agent.md`](./use-calc_issue_counts.agent.md) — counts Jira issues by status per project and validates the totals against retrieved issues.
+  + Keywords: Jira issue counts, count by status, project code, status totals, reconcile issue counts
 - [`creating-instructions.agent.md`](./creating-instructions.agent.md) — creates and maintains concise, reusable project instructions and their Copilot wrappers.
   + Keywords: create instructions, update instructions, instruction catalog, Copilot prompt
 - [`generate-project-health-brief.agent.md`](./generate-project-health-brief.agent.md) — generates the Development-wide weekly Jira project health brief from a fresh data snapshot.
