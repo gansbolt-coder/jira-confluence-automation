@@ -11,6 +11,7 @@ Calculate compound interest by running `tools/compound_interest.py` from the `wo
   - `annual_rate`: annual percentage rate, such as `7.34` for 7.34% (not `0.0734`).
   - `compounds_per_year`: positive integer frequency, such as `12` for monthly.
   - `years`: total duration in years; use a decimal for partial years.
+- If the `compound-interest` MCP server is available, prefer its `calculate_compound_interest` tool and supply the same four named inputs. Otherwise, use the CLI.
 - Invoke it with positional arguments in this exact order:
   - `python tools/compound_interest.py <principal> <annual_rate> <compounds_per_year> <years>`
   - On Windows, use `py` instead of `python` if needed.

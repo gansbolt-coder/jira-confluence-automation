@@ -3,6 +3,12 @@
     "echo-windows": {
       "command": "powershell",
       "args": ["-ExecutionPolicy", "Bypass", "-File", "./path/to/mcp-echo.ps1"]
+    },
+    "compound-interest": {
+      "type": "stdio",
+      "command": "py",
+      "args": ["-u", "tools/compound_interest_mcp.py"],
+      "cwd": "${workspaceFolder}"
     }
   }
 }
